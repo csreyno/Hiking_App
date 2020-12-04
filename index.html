@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take A Hike</title>
+    <!-- favicon -->
+    <link rel="icon" link href="./styles/images/favicon.ico"/>
+    <!-- font awesome for star icons -->
+    <link href="./styles/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-content">
+        <header>
+            <h1>Go hike</h1>
+        </header>
+        <section class="form-container">
+            <form id="form">
+                <p class="no-results"></p>
+                <input type="text" class="user-location" placeholder="City, State or Zip Code">
+                <button type="submit" class="user-search">Search</button>
+            </form>
+        </section>
+        <section class="bckimg-container">
+            <div class="background-img">
+                <img src="./styles/images/mobile_pic.PNG" id="banner" alt="">
+            </div>
+        </section>
+        <div class="cardholder hidden">
+            <button class="close">X</button>
+        </div>
+    </div>
+
+
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
